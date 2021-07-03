@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto+Condensed:wght@400;700&display=swap');
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight: 400;
+}
+
+h1,h2, h3, h4,h5,h6,button{
+    font-weight: 700;
+}
+
+
+
+/* custome css start here */
+
+/* Header section start here */
+
+
+header{
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#menu-start{
+    width: 100%;
+    height: 10vh;
+    background: white;
+    position: fixed;
+    z-index: 10000;
+}
+
+.menu{
+    width: 70%;
+    margin: auto;
+}
+
+.menu ul li a{
+    color: #2c3e50;
+    text-transform: uppercase;
+    opacity: .8;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+
+.menu ul li a:hover{
+    opacity: 1;
+    color: #2c3e50;
+    border-bottom: 1px solid #e74c3c;
+
+
+}
+
+
+
+
+.menu ul li{
+    margin-left: 20px !important;
+}
+/* Header section end here */
+
+
+
+
+/* fetness icon card section start here */
+
+
+.fittness-icon{
+    width: 70%;
+    height: 200px;
+    position: absolute;
+    content: '';
+    left: 15%;
+    bottom: -100px;
+    background: white;
+    box-shadow: 0px 10px 50px rgba(51, 51, 51, 0.5);
+
+}
+.fittness-icon .row .card{
+    height: 100%;
+    padding: 38px 0px;
+    width: 32%;
+    margin-right: 2%;
+    box-shadow: 5px 5px 50px rgba(51, 51, 51, 0.2);
+
+}
+.fittness-icon .row .card:last-child{
+    margin-right: 0;
+}
+.fettness-icon-card-text{
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.fettness-icon-card-text:hover{
+    color: #2c3e50;
+    cursor: pointer;
+
+}
+/* fetness icon card section end here */
+
+
+
+/* video section start here */
+
+.video{
+    height: 740px;
+}
+
+.video .up{
+    width: 100%;
+    height: 20vh;
+    margin: 150px 0px 40px;
+    align-items: center;
+}
+
+.video .up .row p{
+    padding-top: 15px !important;
+}
+
+.video .up h4{
+    margin-left: 50px;
+    color: #e74c3c;
+}
+
+.orange-div{
+    width: 50%;
+    height: 300px;
+    background: #e74c3c;
+    position: relative;
+}
+
+.play-div{
+    width: 900px;
+    height: 450px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    content: '';
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    margin-bottom: 100px;
+
+}
+.play-div img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.orange-div p{
+    width: 240px;
+    background-color: #e74c3c;
+    color: white;
+    letter-spacing: 5px;
+    padding: 5px 10px ;
+    z-index: 1000;
+    position: absolute;
+    content: '';
+    top:430px;
+    left: 650px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+/* video section end here */
+
+
+/* get start section start here */
+
+.get-start{
+    width: 100%;
+    background: #e74c3c;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.get-start h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 60px;
+}
+.get-start button{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 5px 50px;
+    color: #e74c3c;
+    border: none;
+    transition: 0.3s;
+}
+.get-start button:hover{
+    background: rgb(139, 139, 139);
+    color: white;
+}
+/* get start section end here */
+
+
+
+/* more logo section start here */
+.more{
+    padding:80px 0px;
+}
+
+.more .title{
+    width: 500px;
+    float: right;
+    display: block;
+}
+
+.search-icon{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.search-icon img{
+    width: 100%;
+    padding:50px;
+
+}
+
+
+
+.more-logo{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 500px;
+}
+
+.more-logo img{
+    width: 100%;
+}
+
+.plus{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+.plus img{
+    width: 100%;
+}
+
+.more .row{
+    margin-top: 150px;
+}
+/* more logo section end here */
+
+
+
+/* lose fat section start here */
+.lose-fat{
+    padding: 100px 0px;
+    background:#e74c3c;
+}
+.lose-fat h2{
+    font-size: 35px;
+    font-weight: 700;
+    width: 75%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.lose-fat h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.lose-fat-bar{
+    width: 100%;
+    height: 100px;
+    background:#e74c3c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 0px 30px rgb(26, 25, 25);
+    margin-bottom: 50px;
+}
+.lose-fat-bar h3{
+    cursor: pointer;
+}
+.lose-fat p{
+    width: 60%;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+/* lose fat section end here */
+
+
+/* rule section start here */
+.rule{
+    padding: 50px 0px;
+}
+.rule h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.rule span{
+    color:#e74c3c;
+}
+/* rule section end here */
+
+/* card section start */
+
+.card-section .row{
+    width: 100%;
+    margin: auto;
+
+}
+
+.card-section .row .col-md-2:last-child {
+    margin-right: 0px;
+}
+.card-section .row .col-md-2 {
+    width: 16.5%;
+    margin-right: 2px;
+    height: 187px;
+    background:linear-gradient(to right, rgba(255, 255,255, 1), rgb(197 191 191 / 50%));
+}
+
+/* card end start */
+
+
+
+
+/* formula section start here */
+.formula{
+    width: 100%;
+    padding-top: 100px;
+    background-color: #e74c3c;
+}
+
+.formula .formula-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formula .formula-left{
+    width: 40%;
+}
+
+.formula .content{
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.formula img{
+    width: 10%;
+}
+
+.formula .formula-left .content p{
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.formula-right{
+    width: 40%;
+}
+
+.formula-right .content p{
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+
+}
+/* formula section end here */
+
+
+/* 3step section start here */
+
+.step3{
+    padding: 100px 0px;
+    background: white;
+}
+
+.step3 .title h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.step3 span{
+    color: #e74c3c;
+}
+.step3 .title p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.step-img{
+    height: 280px;
+    object-fit: cover;
+}
+/* 3step section end here */
+
+
+
+/* get-start section start here */
+
+.get-start{
+    background: #e74c3c;
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+.get-start h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* get-start section end here */
+
+
+
+/* footer section start here */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: white;
+
+}
+.f-top{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 50px;
+}
+.f-bottom{
+    font-size: 14px;
+    text-align: center;
+}
+/* footer section end here */
+
+/* custome css end here */
